@@ -1,0 +1,101 @@
+.login_logo img {
+  width: 150px;
+  height: 60px;
+  margin-left: 70px;
+  padding-top: 20px;
+}
+.login_logo img:hover {
+  cursor: pointer;
+}
+.ogin_nav {
+  background-color: black;
+  width: 100vw;
+  height: 20px;
+}
+
+.Login_nav {
+  background-image: url(../../image/BG/netflix_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+
+  height: 100vh;
+}
+.login_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.login_inner div {
+  margin: 0 50px;
+  padding: 20px 20px;
+}
+.lgbtn button {
+  width: 90px;
+  padding: 8px;
+  background-color: rgb(212, 8, 8);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.lgbtn button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+.Login_detail {
+  margin-top: 23vh;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.anywhere,
+.ready {
+  margin-top: 4vh;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.login_getstart {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.getstarted {
+  display: flex;
+  justify-content: center;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+.email input {
+  padding: 18px;
+  width: 25vw;
+  background-color: #bbb7b77c;
+  border-radius: 3px;
+  border: 2px solid red;
+  color: white;
+  font-size: medium;
+}
+.statbtn button {
+  background-color: rgb(211, 11, 11);
+  border: none;
+  border-radius: 3px;
+  margin-left: 5px;
+  height: 8vh;
+  width: 15vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+.statbtn button:hover {
+  cursor: pointer;
+  background-color: red;
+}

@@ -1,0 +1,89 @@
+.Nav {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.Nav_logo {
+  width: 120px;
+  height: 30px;
+  margin: 18px;
+  margin-left: 60px;
+}
+.Nav_logo {
+  cursor: pointer;
+}
+.Nav_title_button {
+  display: flex;
+  padding: 15px;
+}
+.Nav_Title {
+  padding-top: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+.Nav_button_red {
+  padding: 9px;
+  border: none;
+  margin: 0 7px;
+  background-color: red;
+  width: 140px;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.Nav_button_red:hover {
+  background-color: hsl(0, 100%, 68%);
+  cursor: pointer;
+}
+.Nav_button_signin {
+  width: 92px;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: solid 1px white;
+  padding: 8px;
+  margin-right: 40px;
+}
+.Nav_button_signin:hover {
+  background-color: hsl(0, 0%, 18%);
+  cursor: pointer;
+}
+@media all and (max-width: 700px) {
+  .Nav_Title {
+    display: none;
+  }
+
+  .Nav_button {
+    top: 12px;
+    left: 20px;
+  }
+  .Nav_button_red {
+    width: 120px;
+  }
+  .Nav_logo {
+    width: 90px;
+    margin-left: 15px;
+  }
+  .Nav_button {
+    height: 150px;
+  }
+  .Nav_button button {
+    width: 80px;
+    height: 35px;
+  }
+  .Nav_button_signin,
+  .Nav_button_red {
+    padding: 0;
+    margin: 0 2px;
+  }
+}

@@ -1,0 +1,98 @@
+.login {
+  background-image: url(../../image/BG/login_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+
+  height: 100vh;
+}
+
+.loginLogo img {
+  width: 150px;
+  height: 60px;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.loginLogo img:hover {
+  cursor: pointer;
+}
+form {
+  width: 33vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 5px;
+  background-color: #000000b7;
+}
+.logintxt {
+  padding-top: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.loginbox {
+  width: 80%;
+  margin: 60px auto;
+  padding-left: 20px;
+}
+.logininputs,
+.input2 {
+  margin-top: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.logininputs input,
+.input2 input {
+  padding: 15px;
+  width: 23vw;
+  background-color: rgba(0, 0, 0, 0.425);
+  border: 2px solid red;
+  border-radius: 3px;
+}
+.singinbtn,
+.codelogin {
+  margin-top: 25px;
+}
+.singinbtn button {
+  width: 23vw;
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(206, 8, 8);
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.singinbtn button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+.or {
+  text-align: center;
+  padding-top: 15px;
+}
+.codelogin button {
+  width: 23vw;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(146, 144, 144, 0.425);
+  color: white;
+  font-weight: bold;
+  font-size: small;
+}
+.codelogin button:hover {
+  cursor: pointer;
+  background-color: rgba(146, 144, 144, 0.349);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}

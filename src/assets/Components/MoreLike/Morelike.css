@@ -1,0 +1,24 @@
+.MoreLike {
+  width: 1214px;
+  margin: auto;
+}
+.MoreLike_center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+.MoreLike_inner {
+  width: 378px;
+  height: 220px;
+  margin: 6px;
+}
+.MoreLike_inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.MoreLike_inner:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
