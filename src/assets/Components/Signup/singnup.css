@@ -20,8 +20,8 @@
   background-size: cover;
   width: 100%;
   max-width: 100%;
-
   height: 100vh;
+  position: sticky;
 }
 .login_inner {
   display: flex;
@@ -98,4 +98,13 @@
 .statbtn button:hover {
   cursor: pointer;
   background-color: red;
+}
+@media (max-width: 652px) {
+  .Login_nav {
+    width: 100vw;
+    height: 100vh;
+  }
+  .Login_detail p {
+    font-size: 1.5rem;
+  }
 }

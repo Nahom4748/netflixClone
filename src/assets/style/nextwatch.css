@@ -23,8 +23,8 @@
   transform: scale(1.009);
 }
 .poster {
-  width: 290px;
-  height: 190px;
+  width: 294px;
+  height: 200px;
   object-fit: fill;
 }
 
@@ -47,4 +47,24 @@
 }
 .next1:hover {
   cursor: pointer;
+}
+@media (max-width: 616px) {
+  .posters {
+    padding-left: 2px;
+  }
+  .next1 {
+    display: none;
+  }
+  .poster {
+    width: 140px;
+    height: 130px;
+  }
+  .next_title {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  .container {
+    margin: auto;
+  }
 }

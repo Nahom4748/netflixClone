@@ -75,4 +75,10 @@
   .footertitle h2 {
     font-size: 16px;
   }
+  .blur_image img {
+    height: 20vh;
+  }
+  .footerdiscription p {
+    font-size: 14px;
+  }
 }

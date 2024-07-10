@@ -21,7 +21,7 @@ function NextWatch(props) {
     })();
   }, []);
   return (
-    <>
+    <div className="size">
       <h2 className="next_title">{props.title}</h2>
       <div className="container">
         <img
@@ -51,7 +51,7 @@ function NextWatch(props) {
           alt=""
         />
       </div>
-    </>
+    </div>
   );
 }
 
