@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "../Navigation/Nav";
 import logo from "../../image/icons/Logo.png";
 import "./singnup.css";
 import { useNavigate } from "react-router-dom";

@@ -22,3 +22,12 @@
   cursor: pointer;
   transform: scale(1.01);
 }
+@media screen and (max-width: 359px) {
+  .MoreLike_inner {
+    width: 10%;
+    height: 20vh;
+  }
+  .price {
+    font-size: small;
+  }
+}

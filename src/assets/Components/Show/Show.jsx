@@ -70,7 +70,7 @@ function Show() {
             </div>
           </div>
 
-          <div>
+          <div className="abc">
             <button>Join Now </button>
           </div>
         </div>
