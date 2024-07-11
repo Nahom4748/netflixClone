@@ -4,10 +4,12 @@
   object-fit: cover;
 }
 .MovieDetail {
+  width: 100vw;
   padding-top: 60px;
 }
 .movie_container {
   width: 100vw;
+  max-width: 100vh;
 }
 @font-face {
   font-family: myfont;
@@ -144,8 +146,26 @@
 }
 @media (max-width: 652px) {
   .movie_container {
-    width: 100%;
-    border: 2px solid red;
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  .movie_container::-webkit-scrollbar {
+    display: none;
+  }
+  .MovieDetail img {
+    width: 100vw;
+    height: 280px;
+  }
+  .moreInner {
+    margin: 0;
+    height: 200px;
+    width: 12%;
+    height: 12px;
+    font-size: 12px;
+  }
+
+  .MoreDetails {
+    padding: 0;
   }
 
   .Youtube_vedios {
@@ -158,9 +178,42 @@
     height: 200px;
   }
   .more div {
-    height: 20px;
+    height: 40px;
   }
   .abc {
-    width: 20px;
+    display: none;
+  }
+  .MovieDetail_texts {
+    display: none;
+  }
+  .MovieDetail_shadow {
+    height: 200px;
+    margin-top: 140px;
+  }
+  .lgalt img {
+    height: 40px;
+    width: 50px;
+  }
+  .MovieDetail_moreinfo {
+    padding: 0;
+    margin: 0;
+  }
+  .more11 {
+    text-align: center;
+  }
+  .moreInner {
+    width: 100vw;
+    margin-bottom: 270px;
+  }
+  .MoreLike_center {
+    display: flex;
+  }
+  .MoreLike_inner {
+    margin-top: 40px;
+    width: 10%;
+    height: 20vh;
+  }
+  .images {
+    width: 20%;
   }
 }

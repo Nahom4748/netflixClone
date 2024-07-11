@@ -24,8 +24,12 @@
 }
 @media screen and (max-width: 359px) {
   .MoreLike_inner {
+    margin-top: 40px;
     width: 10%;
     height: 20vh;
+  }
+  .images {
+    width: 20%;
   }
   .price {
     font-size: small;

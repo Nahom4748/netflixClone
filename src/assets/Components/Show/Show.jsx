@@ -62,7 +62,7 @@ function Show() {
         </div>
         <div className="MovieDetail_price">
           <div className="more">
-            <div>
+            <div className="lgalt">
               <img src={Netflixlogo} alt="" />
             </div>
             <div>
